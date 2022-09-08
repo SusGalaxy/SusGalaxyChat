@@ -1,6 +1,16 @@
 // We enclose this in window.onload.
 // So we don't have ridiculous errors.
 window.onload = function() {
+  const firebaseConfig = {
+    apiKey: "AIzaSyB5DTGCC0Jvm8xqY6RmklZcFa4whl7_bqQ",
+    authDomain: "susgalaxychat.firebaseapp.com",
+    projectId: "susgalaxychat",
+    storageBucket: "susgalaxychat.appspot.com",
+    messagingSenderId: "927656135512",
+    appId: "1:927656135512:web:7cc895027d865a9b80b32d",
+    measurementId: "G-CZ122BMVYH"
+  };
+  
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   // This is very IMPORTANT!! We're going to use "db" a lot.
